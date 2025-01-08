@@ -1,0 +1,103 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": [
+              "Hi",
+              "Hello",
+              "How are you?",
+              "Good morning",
+              "Good evening",
+              "Hey there",
+              "What's up?"
+          ],
+          "responses": [
+              "Hello! How can I assist you today?",
+              "Hi there! How can I help?",
+              "Greetings! How may I assist you?"
+          ]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": [
+              "Bye",
+              "See you later",
+              "Goodbye",
+              "Catch you later",
+              "I'm leaving"
+          ],
+          "responses": [
+              "Goodbye! Take care!",
+              "See you later! Have a great day!",
+              "Bye! Come back if you have more questions!"
+          ]
+      },
+      {
+          "tag": "thanks",
+          "patterns": [
+              "Thank you",
+              "Thanks",
+              "Thanks a lot",
+              "Much appreciated",
+              "I'm grateful"
+          ],
+          "responses": [
+              "You're welcome!",
+              "Glad to help!",
+              "No problem! Anytime."
+          ]
+      },
+      {
+          "tag": "mental_health",
+          "patterns": [
+              "I'm feeling stressed",
+              "I think I might be depressed",
+              "I need help with my mental health",
+              "I feel anxious",
+              "Can you help me with mental health issues?"
+          ],
+          "responses": [
+              "I'm here to listen. Can you tell me more about how you're feeling?",
+              "Mental health is important. Let’s talk about what’s bothering you.",
+              "I'm here to help. Please share what’s on your mind."
+          ]
+      },
+      {
+          "tag": "self_care",
+          "patterns": [
+              "How can I take care of myself?",
+              "What are some self-care tips?",
+              "How do I stay positive?",
+              "What should I do to feel better?"
+          ],
+          "responses": [
+              "Try to get enough rest, eat well, and stay active.",
+              "Engage in activities you enjoy and take regular breaks.",
+              "Practice mindfulness or meditation to stay calm and positive."
+          ]
+      },
+      {
+          "tag": "unknown",
+          "patterns": [
+              "What are you?",
+              "Who made you?",
+              "What do you do?",
+              "What is your purpose?"
+          ],
+          "responses": [
+              "I'm a chatbot designed to help with mental health and general queries.",
+              "I'm here to assist you with your questions and provide support.",
+              "I was created to make your day a little easier!"
+          ]
+      },
+      {
+          "tag": "fallback",
+          "patterns": [],
+          "responses": [
+              "I'm sorry, I didn't understand that. Could you rephrase?",
+              "I'm not sure how to respond to that. Can you ask something else?",
+              "I didn’t catch that. Let’s try again!"
+          ]
+      }
+  ]
+}
